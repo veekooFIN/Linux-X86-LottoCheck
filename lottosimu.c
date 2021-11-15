@@ -115,7 +115,8 @@ void main()
         totalbt++;
       }
     }  
-  }    
+  }
+      
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) cash=cash+20000000;
   if(total==5 && totalbt==1) cash=cash+500000;
@@ -129,6 +130,7 @@ void main()
   if(total==1 && totalbt==2) cash=cash+10;
   if(total==2 && totalbt==1) cash=cash+8;
   saldo = cash - game * 2;
+  
   if(saldo > 1) printf("\nEurojackpot kierros, voitot, 1 tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(saldo > 10) printf("\nEurojackpot kierros, voitot, 10 tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(saldo > 100) printf("\nEurojackpot kierros, voitot, 100 tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
