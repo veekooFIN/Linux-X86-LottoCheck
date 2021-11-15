@@ -444,8 +444,8 @@ void main()
     totalcp++;
   }
   printf("\nVikinglotto numeroita oikein R1:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);
-  total=0; 
-  
+/*
+  total=0;  
   for(i=0;i<6;i++) 
   { 
     for(ii=0;ii<6;ii++) 
@@ -643,7 +643,7 @@ void main()
     totalcp++;
   } 
   printf("\nVikinglotto numeroita oikein R10:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);    
-
+*/
 /*----------------------------------------------------------------------+
  |                                                                      |
  |                                                                      |
@@ -674,7 +674,7 @@ void main()
     }  
   }    
   printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt); 
-
+/*
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -882,7 +882,7 @@ void main()
     }  
   }       
   printf("\nEurojackpot numeroita oikein R10:\t\t\t %d+%d\n",total,totalbt); 
-
+*/
 /*----------------------------------------------------------------------+
  |                                                                      |
  |                                                                      |
@@ -915,7 +915,7 @@ void main()
     totalap++;
   }  
   printf("\nLotto numeroita oikein R1:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
-  total=0; 
+/*  total=0; 
   for(i=0;i<7;i++) 
   { 
     for(ii=0;ii<7;ii++) 
@@ -1140,7 +1140,7 @@ void main()
     totalap++;
   }   
   printf("\nLotto numeroita oikein R10:\t\t\t %d+%d+%d\n",total,totalal,totalap);
-  
+*/  
 } 
 
 
