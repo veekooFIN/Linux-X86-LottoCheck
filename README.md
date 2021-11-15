@@ -15,7 +15,7 @@ Including all extra lotto games (numbers).
 C language code developed for Linux. 
 Executable files added.
 Runtime pictures added.
-Here is update #1 files!
+Here is update #2 files!
 
 ---------------------------------------------------------------------------------------------------------------
 
