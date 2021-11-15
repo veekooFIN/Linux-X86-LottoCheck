@@ -6,6 +6,8 @@ Lotto contains games Vikinglotto, Eurojackpot and Lotto.
 
 Each one has 10 rows to check against winning numbers.
 
+Including all extra lotto games (numbers).
+
 ---------------------------------------------------------------------------------------------------------------
 
 
@@ -13,7 +15,7 @@ Each one has 10 rows to check against winning numbers.
 C language code developed for Linux. 
 Executable files added.
 Runtime pictures added.
-Here is update #0 files!
+Here is update #1 files!
 
 ---------------------------------------------------------------------------------------------------------------
 
