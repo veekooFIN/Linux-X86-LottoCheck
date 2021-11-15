@@ -65,7 +65,7 @@ void main()
   scanf("%d",&cv0[0]);
   printf("\nSyota vikinglotto plusnumero 1kpl 1-30 R1: ");  
   scanf("%d",&cp0[0]);
-  /*  
+    
   printf("\nSyota vikinglotto numerot 6kpl 1-48 R2: "); 
   for(i=0;i<6;i++) 
   { 
@@ -75,7 +75,7 @@ void main()
   scanf("%d",&cv1[0]);
   printf("\nSyota vikinglotto plusnumero 1kpl 1-30 R2: ");  
   scanf("%d",&cp1[0]);
-  
+/*
   printf("\nSyota vikinglotto numerot 6kpl 1-48 R3: "); 
   for(i=0;i<6;i++) 
   { 
@@ -155,7 +155,7 @@ void main()
   scanf("%d",&cv9[0]);
   printf("\nSyota vikinglotto plusnumero 1kpl 1-30 R10: ");  
   scanf("%d",&cp9[0]);
-  */
+*/
   
 /*----------------------------------------------------------------------+
  |                                                                      |
@@ -191,7 +191,7 @@ void main()
   { 
     scanf("%d",&bt0[i]);
   } 
-/*
+
   printf("\nSyota eurojackpot numerot 5kpl 1-50 R2: "); 
   for(i=0;i<5;i++) 
   { 
@@ -235,7 +235,7 @@ void main()
   { 
     scanf("%d",&bt4[i]);
   } 
-
+/*
   printf("\nSyota eurojackpot numerot 5kpl 1-50 R6: "); 
   for(i=0;i<5;i++) 
   { 
@@ -324,7 +324,7 @@ void main()
   }
   printf("\nSyota lotto plusnumero 1kpl 1-30 R1: ");  
   scanf("%d",&ap0[0]);
- /* 
+  
   printf("\nSyota lotto numerot 7kpl 1-40 R2: "); 
   for(i=0;i<7;i++) 
   { 
@@ -380,7 +380,7 @@ void main()
   }
   printf("\nSyota lotto plusnumero 1kpl 1-30 R8: ");  
   scanf("%d",&ap7[0]);
-
+/*
   printf("\nSyota lotto numerot 7kpl 1-40 R9: "); 
   for(i=0;i<7;i++) 
   { 
@@ -444,7 +444,7 @@ void main()
     totalcp++;
   }
   printf("\nVikinglotto numeroita oikein R1:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);
-/*
+
   total=0;  
   for(i=0;i<6;i++) 
   { 
@@ -467,6 +467,7 @@ void main()
     totalcp++;
   } 
   printf("\nVikinglotto numeroita oikein R2:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+/*  
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -644,6 +645,7 @@ void main()
   } 
   printf("\nVikinglotto numeroita oikein R10:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);    
 */
+
 /*----------------------------------------------------------------------+
  |                                                                      |
  |                                                                      |
@@ -674,7 +676,7 @@ void main()
     }  
   }    
   printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt); 
-/*
+
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -767,6 +769,7 @@ void main()
     }  
   }       
   printf("\nEurojackpot numeroita oikein R5:\t\t\t %d+%d\n",total,totalbt); 
+/*
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -883,6 +886,7 @@ void main()
   }       
   printf("\nEurojackpot numeroita oikein R10:\t\t\t %d+%d\n",total,totalbt); 
 */
+
 /*----------------------------------------------------------------------+
  |                                                                      |
  |                                                                      |
@@ -915,7 +919,7 @@ void main()
     totalap++;
   }  
   printf("\nLotto numeroita oikein R1:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
-/*  total=0; 
+  total=0; 
   for(i=0;i<7;i++) 
   { 
     for(ii=0;ii<7;ii++) 
@@ -1090,6 +1094,7 @@ void main()
     totalap++;
   }   
   printf("\nLotto numeroita oikein R8:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+/*  
   total=0; 
   for(i=0;i<7;i++) 
   { 
