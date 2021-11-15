@@ -19,6 +19,12 @@ Here is update #3 files!
 
 ---------------------------------------------------------------------------------------------------------------
 
+Next under developmnet is in lottosimu.c
+
+-> a note of some of the largest winning tickets (beginning from 100 euros)
+
+-> re-check and give warning if randomized arrays have same numbers
+
 ---------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------
