@@ -1,3 +1,10 @@
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |     lotto.c -- demonstrate lotto number checker / quick and dirty    |
+ |                Vikinglotto, Eurojackpot and Lotto                    |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+
 #include<stdio.h> 
 void main() 
 { 
@@ -41,6 +48,13 @@ void main()
   int ap7[0];
   int ap8[0];
   int ap9[0];
+  
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Vikinglotto - input rows                              |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
                          
   printf("\nSyota vikinglotto numerot 6kpl 1-48 R1: "); 
   for(i=0;i<6;i++) 
@@ -143,6 +157,13 @@ void main()
   scanf("%d",&cp9[0]);
   */
   
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Vikinglotto - input right row                         |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+  
   printf("\nSyota oikeat vikinglotto numerot 6kpl 1-48: "); 
   for(i=0;i<6;i++) 
   { 
@@ -153,9 +174,13 @@ void main()
   printf("\nSyota oikeat vikinglotto plusnumero 1kpl 1-30: ");  
   scanf("%d",&ccp[0]); 
    
-
-
-   
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - input rows                              |
+ |                                                                      |
+ +----------------------------------------------------------------------*/  
+  
   printf("\nSyota eurojackpot numerot 5kpl 1-50 R1: "); 
   for(i=0;i<5;i++) 
   { 
@@ -266,6 +291,13 @@ void main()
     scanf("%d",&bt9[i]);
   } 
 */
+ 
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - input right row                         |
+ |                                                                      |
+ +----------------------------------------------------------------------*/  
   
   printf("\nSyota oikeat eurojackpot numerot 5kpl 1-50: "); 
   for(i=0;i<5;i++) 
@@ -278,8 +310,12 @@ void main()
     scanf("%d",&bbt[i]); 
   }
 
-
-
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Lotto - input rows                                    |
+ |                                                                      |
+ +----------------------------------------------------------------------*/  
   
   printf("\nSyota lotto numerot 7kpl 1-40 R1: "); 
   for(i=0;i<7;i++) 
@@ -362,6 +398,13 @@ void main()
   scanf("%d",&ap9[0]);
 */
 
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Lotto - input right row                               |
+ |                                                                      |
+ +----------------------------------------------------------------------*/  
+ 
   printf("\nSyota oikeat lotto numerot 7kpl 1-40: "); 
   for(i=0;i<7;i++) 
   { 
@@ -372,8 +415,13 @@ void main()
   printf("\nSyota oikeat lotto plusnumero 1kpl 1-30 R10: ");  
   scanf("%d",&aap[0]);
 
-
-  
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Vikinglotto - output results                          |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+   
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -385,8 +433,7 @@ void main()
       }
     }  
   }
-  totalcv=0; 
-  totalcp=0;
+  totalcv=0;
   if(ccv[0]==cv0[0])
   { 
     totalcv++;
@@ -410,7 +457,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv1[0])
   { 
     totalcv++;
@@ -433,7 +479,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv2[0])
   { 
     totalcv++;
@@ -456,7 +501,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv3[0])
   { 
     totalcv++;
@@ -479,7 +523,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv4[0])
   { 
     totalcv++;
@@ -502,7 +545,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv5[0])
   { 
     totalcv++;
@@ -525,7 +567,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv6[0])
   { 
     totalcv++;
@@ -548,7 +589,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv7[0])
   { 
     totalcv++;
@@ -571,7 +611,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv8[0])
   { 
     totalcv++;
@@ -594,7 +633,6 @@ void main()
     }  
   }
   totalcv=0; 
-  totalcp=0;
   if(ccv[0]==cv9[0])
   { 
     totalcv++;
@@ -606,8 +644,12 @@ void main()
   } 
   printf("\nVikinglotto numeroita oikein R10:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);    
 
-
-
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - output results                          |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
 
   total=0;  
   for(i=0;i<5;i++) 
@@ -841,9 +883,13 @@ void main()
   }       
   printf("\nEurojackpot numeroita oikein R10:\t\t\t %d+%d\n",total,totalbt); 
 
-
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Lotto - output results                                |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
  
-    
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -880,6 +926,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a1[i])
@@ -904,6 +951,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a2[i])
@@ -928,6 +976,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a3[i])
@@ -952,6 +1001,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a4[i])
@@ -976,6 +1026,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a5[i])
@@ -1000,6 +1051,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a6[i])
@@ -1024,6 +1076,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a7[i])
@@ -1048,6 +1101,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a8[i])
@@ -1072,6 +1126,7 @@ void main()
       }
     }  
   }
+  totalal=0;
   for(i=0;i<7;i++) 
   { 
     if(aal[0]==a9[i])
