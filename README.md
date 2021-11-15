@@ -15,7 +15,7 @@ lottosimu.c - A simulation of playing Eurojackpot very very long time - monitori
 ---------------------------------------------------------------------------------------------------------------
 C language code developed for Linux. 
 Executable files added.
-Here is update #2 files!
+Here is update #3 files!
 
 ---------------------------------------------------------------------------------------------------------------
 
