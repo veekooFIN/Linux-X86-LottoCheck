@@ -19,16 +19,6 @@ Here is update #3 files!
 
 ---------------------------------------------------------------------------------------------------------------
 
-Next under development is in lotto.c
-
--> 2 rows of Vikinglotto, 5 rows of Eurojackpot, 8 rows of Lotto
-
-Next under development is in lottosimu.c
-
--> a note of some of the largest winning tickets (beginning from 100 euros)
-
--> re-check and give warning if randomized arrays have same numbers
-
 ---------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------
