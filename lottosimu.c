@@ -10,7 +10,7 @@
 
 void main() 
 { 
-  int b0[5],bb[5],i,ii,total,game,cash,sw,saldo;
+  int b0[5],bb[5],i,ii,total,game,cash,sw,saldo,jp;
   int b1[5];
   int b2[5];
   int b3[5];
@@ -75,6 +75,123 @@ void main()
     sw=0;
     }
   }
+  
+   sw=0;
+  //printf("\nSyota eurojackpot numerot 5kpl 1-50 R2: "); 
+  for(i=0;i<5;i++) 
+  { 
+    b1[i]=rand() % 51 +1;  
+    for(ii=0;ii<5;ii++) 
+    {   
+      if(b1[ii] == b1[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  sw=0;
+  //printf("\nSyota eurojackpot tahtinumerot 2kpl 1-10 R2: "); 
+  for(i=0;i<2;i++) 
+  {
+    bt1[i]=rand() % 11 +1;
+    for(ii=0;ii<2;ii++) 
+    {  
+      if(bt1[ii] == bt1[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  
+   sw=0;
+  //printf("\nSyota eurojackpot numerot 5kpl 1-50 R3: "); 
+  for(i=0;i<5;i++) 
+  { 
+    b2[i]=rand() % 51 +1;  
+    for(ii=0;ii<5;ii++) 
+    {   
+      if(b2[ii] == b2[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  sw=0;
+  //printf("\nSyota eurojackpot tahtinumerot 2kpl 1-10 R3: "); 
+  for(i=0;i<2;i++) 
+  {
+    bt2[i]=rand() % 11 +1;
+    for(ii=0;ii<2;ii++) 
+    {  
+      if(bt2[ii] == bt2[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  
+   sw=0;
+  //printf("\nSyota eurojackpot numerot 5kpl 1-50 R4: "); 
+  for(i=0;i<5;i++) 
+  { 
+    b3[i]=rand() % 51 +1;  
+    for(ii=0;ii<5;ii++) 
+    {   
+      if(b3[ii] == b3[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  sw=0;
+  //printf("\nSyota eurojackpot tahtinumerot 2kpl 1-10 R4: "); 
+  for(i=0;i<2;i++) 
+  {
+    bt3[i]=rand() % 11 +1;
+    for(ii=0;ii<2;ii++) 
+    {  
+      if(bt3[ii] == bt3[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  
+   sw=0;
+  //printf("\nSyota eurojackpot numerot 5kpl 1-50 R5: "); 
+  for(i=0;i<5;i++) 
+  { 
+    b4[i]=rand() % 51 +1;  
+    for(ii=0;ii<5;ii++) 
+    {   
+      if(b4[ii] == b4[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+  sw=0;
+  //printf("\nSyota eurojackpot tahtinumerot 2kpl 1-10 R5: "); 
+  for(i=0;i<2;i++) 
+  {
+    bt4[i]=rand() % 11 +1;
+    for(ii=0;ii<2;ii++) 
+    {  
+      if(bt4[ii] == bt4[i] && (ii != i)) sw=1;
+    }
+    if(sw==1){ 
+    i--;
+    sw=0;
+    }
+  }
+ 
   
 /*
   ir1=0;
@@ -169,6 +286,15 @@ void main()
  |                                                                      |
  +----------------------------------------------------------------------*/
 
+  jp=rand() % 80000001 + 10000001;
+
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - row 1                                   |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+
   total=0;  
   for(i=0;i<5;i++) 
   { 
@@ -194,8 +320,8 @@ void main()
       
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) {
-    cash=cash+20000000;
-    printf("\nEurojackpot 20 000 000 euron voitto\n");
+    cash=cash+jp;
+    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
      }
   if(total==5 && totalbt==1) {
     cash=cash+500000;
@@ -222,9 +348,253 @@ void main()
   if(total==3 && totalbt==1) cash=cash+18;
   if(total==1 && totalbt==2) cash=cash+10;
   if(total==2 && totalbt==1) cash=cash+8;
-  saldo = cash - game * 2;
   
-  if(saldo > 1) printf("\nEurojackpot kierros, voitot, 1 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - row 2                                   |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+
+  total=0;  
+  for(i=0;i<5;i++) 
+  { 
+    for(ii=0;ii<5;ii++) 
+    { 
+      if(bb[i]==b1[ii])
+      { 
+        total++;
+      }
+    }  
+  }
+  totalbt=0;
+  for(i=0;i<2;i++) 
+  { 
+    for(ii=0;ii<2;ii++) 
+    { 
+      if(bbt[i]==bt1[ii])
+      { 
+        totalbt++;
+      }
+    }  
+  }
+      
+  //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
+  if(total==5 && totalbt==2) {
+    cash=cash+jp;
+    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+     }
+  if(total==5 && totalbt==1) {
+    cash=cash+500000;
+    printf("\nEurojackpot 500 000 euron voitto\n");
+  }
+  if(total==5 && totalbt==0) {
+    cash=cash+100000;
+    printf("\nEurojackpot 100 000 euron voitto\n");
+  }
+  if(total==4 && totalbt==2) {
+    cash=cash+4200;
+    printf("\nEurojackpot 4200 euron voitto\n");
+  }
+  if(total==4 && totalbt==1) {
+    cash=cash+240;
+    printf("\nEurojackpot 240 euron voitto\n");
+  }
+  if(total==4 && totalbt==0) {
+    cash=cash+100;
+    printf("\nEurojackpot 100 euron voitto\n");
+  }
+  if(total==3 && totalbt==2) cash=cash+60;
+  if(total==2 && totalbt==2) cash=cash+20;
+  if(total==3 && totalbt==1) cash=cash+18;
+  if(total==1 && totalbt==2) cash=cash+10;
+  if(total==2 && totalbt==1) cash=cash+8;
+
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - row 3                                   |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+
+  total=0;  
+  for(i=0;i<5;i++) 
+  { 
+    for(ii=0;ii<5;ii++) 
+    { 
+      if(bb[i]==b2[ii])
+      { 
+        total++;
+      }
+    }  
+  }
+  totalbt=0;
+  for(i=0;i<2;i++) 
+  { 
+    for(ii=0;ii<2;ii++) 
+    { 
+      if(bbt[i]==bt2[ii])
+      { 
+        totalbt++;
+      }
+    }  
+  }
+      
+  //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
+  if(total==5 && totalbt==2) {
+    cash=cash+jp;
+    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+     }
+  if(total==5 && totalbt==1) {
+    cash=cash+500000;
+    printf("\nEurojackpot 500 000 euron voitto\n");
+  }
+  if(total==5 && totalbt==0) {
+    cash=cash+100000;
+    printf("\nEurojackpot 100 000 euron voitto\n");
+  }
+  if(total==4 && totalbt==2) {
+    cash=cash+4200;
+    printf("\nEurojackpot 4200 euron voitto\n");
+  }
+  if(total==4 && totalbt==1) {
+    cash=cash+240;
+    printf("\nEurojackpot 240 euron voitto\n");
+  }
+  if(total==4 && totalbt==0) {
+    cash=cash+100;
+    printf("\nEurojackpot 100 euron voitto\n");
+  }
+  if(total==3 && totalbt==2) cash=cash+60;
+  if(total==2 && totalbt==2) cash=cash+20;
+  if(total==3 && totalbt==1) cash=cash+18;
+  if(total==1 && totalbt==2) cash=cash+10;
+  if(total==2 && totalbt==1) cash=cash+8;
+
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - row 4                                   |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+
+  total=0;  
+  for(i=0;i<5;i++) 
+  { 
+    for(ii=0;ii<5;ii++) 
+    { 
+      if(bb[i]==b3[ii])
+      { 
+        total++;
+      }
+    }  
+  }
+  totalbt=0;
+  for(i=0;i<2;i++) 
+  { 
+    for(ii=0;ii<2;ii++) 
+    { 
+      if(bbt[i]==bt3[ii])
+      { 
+        totalbt++;
+      }
+    }  
+  }
+      
+  //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
+  if(total==5 && totalbt==2) {
+    cash=cash+jp;
+    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+     }
+  if(total==5 && totalbt==1) {
+    cash=cash+500000;
+    printf("\nEurojackpot 500 000 euron voitto\n");
+  }
+  if(total==5 && totalbt==0) {
+    cash=cash+100000;
+    printf("\nEurojackpot 100 000 euron voitto\n");
+  }
+  if(total==4 && totalbt==2) {
+    cash=cash+4200;
+    printf("\nEurojackpot 4200 euron voitto\n");
+  }
+  if(total==4 && totalbt==1) {
+    cash=cash+240;
+    printf("\nEurojackpot 240 euron voitto\n");
+  }
+  if(total==4 && totalbt==0) {
+    cash=cash+100;
+    printf("\nEurojackpot 100 euron voitto\n");
+  }
+  if(total==3 && totalbt==2) cash=cash+60;
+  if(total==2 && totalbt==2) cash=cash+20;
+  if(total==3 && totalbt==1) cash=cash+18;
+  if(total==1 && totalbt==2) cash=cash+10;
+  if(total==2 && totalbt==1) cash=cash+8;
+
+/*----------------------------------------------------------------------+
+ |                                                                      |
+ |                                                                      |
+ |                Eurojackpot - row 5                                   |
+ |                                                                      |
+ +----------------------------------------------------------------------*/
+
+  total=0;  
+  for(i=0;i<5;i++) 
+  { 
+    for(ii=0;ii<5;ii++) 
+    { 
+      if(bb[i]==b4[ii])
+      { 
+        total++;
+      }
+    }  
+  }
+  totalbt=0;
+  for(i=0;i<2;i++) 
+  { 
+    for(ii=0;ii<2;ii++) 
+    { 
+      if(bbt[i]==bt4[ii])
+      { 
+        totalbt++;
+      }
+    }  
+  }
+      
+  //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
+  if(total==5 && totalbt==2) {
+    cash=cash+jp;
+    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+     }
+  if(total==5 && totalbt==1) {
+    cash=cash+500000;
+    printf("\nEurojackpot 500 000 euron voitto\n");
+  }
+  if(total==5 && totalbt==0) {
+    cash=cash+100000;
+    printf("\nEurojackpot 100 000 euron voitto\n");
+  }
+  if(total==4 && totalbt==2) {
+    cash=cash+4200;
+    printf("\nEurojackpot 4200 euron voitto\n");
+  }
+  if(total==4 && totalbt==1) {
+    cash=cash+240;
+    printf("\nEurojackpot 240 euron voitto\n");
+  }
+  if(total==4 && totalbt==0) {
+    cash=cash+100;
+    printf("\nEurojackpot 100 euron voitto\n");
+  }
+  if(total==3 && totalbt==2) cash=cash+60;
+  if(total==2 && totalbt==2) cash=cash+20;
+  if(total==3 && totalbt==1) cash=cash+18;
+  if(total==1 && totalbt==2) cash=cash+10;
+  if(total==2 && totalbt==1) cash=cash+8;
+
+  saldo = cash - game * 10;
+  
   if(saldo > 10) printf("\nEurojackpot kierros, voitot, 10 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(saldo > 100) printf("\nEurojackpot kierros, voitot, 100 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(saldo > 1000) printf("\nEurojackpot kierros, voitot, 1 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
