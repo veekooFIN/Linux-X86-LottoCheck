@@ -4,6 +4,8 @@ Hobby code development for Linux in C language - Lotto number checker and simula
 
 lotto.c - Lotto numbers checker contains games Vikinglotto (2 rows), Eurojackpot (5 rows) and Lotto (8 rows).
 
+Those 3 euro, 10 euro and 10 euro ready games from local shops.
+
 Including all extra lotto games (numbers).
 
 ---------------------------------------------------------------------------------------------------------------
