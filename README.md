@@ -1,4 +1,4 @@
-# Linux-X86-LottoCheck
+# Linux-X86-LottoUniverse
 Hobby code development for Linux in C language - Lotto number checker and simulation
 ---------------------------------------------------------------------------------------------------------------
 
