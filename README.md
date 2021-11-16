@@ -14,7 +14,7 @@ All sorts of modes can be enabled. Current configuration shows gaming in big cro
 
 Winning tickets over 100 euros can be shown.
 
-Saldo warnings when wins big time
+Saldo warnings when wins big time.
 
 ---------------------------------------------------------------------------------------------------------------
 C language code developed for Linux. 
