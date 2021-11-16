@@ -10,7 +10,7 @@
 
 void main() 
 { 
-  int b0[5],bb[5],i,ii,total,game,cash,sw,saldo,jp;
+  int b0[5],bb[5],i,ii,total,game,cash,sw,saldo,jp,it;
   int b1[5];
   int b2[5];
   int b3[5];
@@ -31,14 +31,17 @@ void main()
   int bt8[2];
   int bt9[2];
   int ir1,ir2,irr1,irr2;
+  int sil=1;
 
- srand(time(0));
+ srand(time(0)); 
+ for(it=0;it<100000;it++)    
+ {
  cash=0;
  ir1=0;
  ir2=0;
  irr1=0;
  irr2=0;
- for(game=0;game<5200;game++)    
+ for(game=0;game<3380;game++)    
  {
 
 /*----------------------------------------------------------------------+
@@ -357,27 +360,27 @@ void main()
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
-    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+    if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
      }
   if(total==5 && totalbt==1) {
     cash=cash+500000;
-    printf("\nEurojackpot 500 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 500 000 euron voitto\n");
   }
   if(total==5 && totalbt==0) {
     cash=cash+100000;
-    printf("\nEurojackpot 100 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 000 euron voitto\n");
   }
   if(total==4 && totalbt==2) {
     cash=cash+4200;
-    printf("\nEurojackpot 4200 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 4200 euron voitto\n");
   }
   if(total==4 && totalbt==1) {
     cash=cash+240;
-    printf("\nEurojackpot 240 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 240 euron voitto\n");
   }
   if(total==4 && totalbt==0) {
     cash=cash+100;
-    printf("\nEurojackpot 100 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 euron voitto\n");
   }
   if(total==3 && totalbt==2) cash=cash+60;
   if(total==2 && totalbt==2) cash=cash+20;
@@ -418,27 +421,27 @@ void main()
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
-    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+    if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
      }
   if(total==5 && totalbt==1) {
     cash=cash+500000;
-    printf("\nEurojackpot 500 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 500 000 euron voitto\n");
   }
   if(total==5 && totalbt==0) {
     cash=cash+100000;
-    printf("\nEurojackpot 100 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 000 euron voitto\n");
   }
   if(total==4 && totalbt==2) {
     cash=cash+4200;
-    printf("\nEurojackpot 4200 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 4200 euron voitto\n");
   }
   if(total==4 && totalbt==1) {
     cash=cash+240;
-    printf("\nEurojackpot 240 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 240 euron voitto\n");
   }
   if(total==4 && totalbt==0) {
     cash=cash+100;
-    printf("\nEurojackpot 100 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 euron voitto\n");
   }
   if(total==3 && totalbt==2) cash=cash+60;
   if(total==2 && totalbt==2) cash=cash+20;
@@ -479,27 +482,27 @@ void main()
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
-    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+    if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
      }
   if(total==5 && totalbt==1) {
     cash=cash+500000;
-    printf("\nEurojackpot 500 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 500 000 euron voitto\n");
   }
   if(total==5 && totalbt==0) {
     cash=cash+100000;
-    printf("\nEurojackpot 100 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 000 euron voitto\n");
   }
   if(total==4 && totalbt==2) {
     cash=cash+4200;
-    printf("\nEurojackpot 4200 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 4200 euron voitto\n");
   }
   if(total==4 && totalbt==1) {
     cash=cash+240;
-    printf("\nEurojackpot 240 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 240 euron voitto\n");
   }
   if(total==4 && totalbt==0) {
     cash=cash+100;
-    printf("\nEurojackpot 100 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 euron voitto\n");
   }
   if(total==3 && totalbt==2) cash=cash+60;
   if(total==2 && totalbt==2) cash=cash+20;
@@ -540,27 +543,27 @@ void main()
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
-    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+    if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
      }
   if(total==5 && totalbt==1) {
     cash=cash+500000;
-    printf("\nEurojackpot 500 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 500 000 euron voitto\n");
   }
   if(total==5 && totalbt==0) {
     cash=cash+100000;
-    printf("\nEurojackpot 100 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 000 euron voitto\n");
   }
   if(total==4 && totalbt==2) {
     cash=cash+4200;
-    printf("\nEurojackpot 4200 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 4200 euron voitto\n");
   }
   if(total==4 && totalbt==1) {
     cash=cash+240;
-    printf("\nEurojackpot 240 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 240 euron voitto\n");
   }
   if(total==4 && totalbt==0) {
     cash=cash+100;
-    printf("\nEurojackpot 100 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 euron voitto\n");
   }
   if(total==3 && totalbt==2) cash=cash+60;
   if(total==2 && totalbt==2) cash=cash+20;
@@ -601,27 +604,27 @@ void main()
   //printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
-    printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
+    if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
      }
   if(total==5 && totalbt==1) {
     cash=cash+500000;
-    printf("\nEurojackpot 500 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 500 000 euron voitto\n");
   }
   if(total==5 && totalbt==0) {
     cash=cash+100000;
-    printf("\nEurojackpot 100 000 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 000 euron voitto\n");
   }
   if(total==4 && totalbt==2) {
     cash=cash+4200;
-    printf("\nEurojackpot 4200 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 4200 euron voitto\n");
   }
   if(total==4 && totalbt==1) {
     cash=cash+240;
-    printf("\nEurojackpot 240 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 240 euron voitto\n");
   }
   if(total==4 && totalbt==0) {
     cash=cash+100;
-    printf("\nEurojackpot 100 euron voitto\n");
+    if(sil != 1) printf("\nEurojackpot 100 euron voitto\n");
   }
   if(total==3 && totalbt==2) cash=cash+60;
   if(total==2 && totalbt==2) cash=cash+20;
@@ -631,16 +634,17 @@ void main()
 
   saldo = cash - game * 10;
   
-  if(saldo > 10) printf("\nEurojackpot kierros, voitot, 10 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 100) printf("\nEurojackpot kierros, voitot, 100 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 1000) printf("\nEurojackpot kierros, voitot, 1 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 10000) printf("\nEurojackpot kierros, voitot, 10 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 100000) printf("\nEurojackpot kierros, voitot, 100 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 1000000) printf("\nEurojackpot kierros, voitot, 1000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 10000000) printf("\nEurojackpot kierros, voitot, 10 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-  if(saldo > 100000000) printf("\nEurojackpot kierros, voitot, 100 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 10) printf("\nEurojackpot kierros, voitot, 10 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 100) printf("\nEurojackpot kierros, voitot, 100 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 1000) printf("\nEurojackpot kierros, voitot, 1 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 10000) printf("\nEurojackpot kierros, voitot, 10 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 100000) printf("\nEurojackpot kierros, voitot, 100 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 1000000) printf("\nEurojackpot kierros, voitot, 1000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 10000000) printf("\nEurojackpot kierros, voitot, 10 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
+  if(sil != 1 && saldo > 100000000) printf("\nEurojackpot kierros, voitot, 100 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   }
-  printf("\nEurojackpot kierros, voitot, tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
-} 
+  if(saldo > 1000000) printf("\nEurojackpot iteraatio, kierros, voitot, tulos:\t\t\t %d+%d+%d+%d\n",it,game,cash,saldo);
+}
+}  
 
 
