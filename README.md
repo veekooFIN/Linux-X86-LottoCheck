@@ -1,5 +1,5 @@
 # Linux-X86-LottoCheck
-Hobby code development for Linux in C language - Lotto number checker
+Hobby code development for Linux in C language - Lotto number checker and simulation
 ---------------------------------------------------------------------------------------------------------------
 
 lotto.c - Lotto numbers checker contains games Vikinglotto (2 rows), Eurojackpot (5 rows) and Lotto (8 rows).
