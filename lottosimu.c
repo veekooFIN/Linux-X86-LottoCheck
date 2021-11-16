@@ -643,7 +643,7 @@ void main()
   if(sil != 1 && saldo > 10000000) printf("\nEurojackpot kierros, voitot, 10 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(sil != 1 && saldo > 100000000) printf("\nEurojackpot kierros, voitot, 100 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   }
-  if(saldo > 1000000) printf("\nEurojackpot iteraatio, kierros, voitot, miljoona tulos:\t\t\t %d+%d+%d+%d\n",it,game,cash,saldo);
+  if(saldo > 1000000) printf("\nEurojackpot iteraatio, kierros, voitot, 1 000 000 euron tulos:\t\t\t %d+%d+%d+%d\n",it,game,cash,saldo);
 }
 }  
 
