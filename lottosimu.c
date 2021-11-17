@@ -725,7 +725,7 @@ void main()
  |                                                                      |
  +----------------------------------------------------------------------*/
  
-  saldo = cash - game * 10;
+  saldo = cash - game * 10 -10;
 
   if(sil != 1 && saldo > 10) printf("\nEurojackpot kierros, voitot, 10 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(sil != 1 && saldo > 100) printf("\nEurojackpot kierros, voitot, 100 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
