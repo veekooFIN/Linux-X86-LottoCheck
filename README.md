@@ -12,9 +12,9 @@ Including all extra lotto games (numbers).
 
 lottosimu.c - A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
 
-All sorts of modes can be enabled. Current configuration shows gaming in big crowd of people, not so individual winnings.
+All sorts of modes can be enabled. This can be fine tuned to makro and micro world of playing. 
 
-Winning tickets over 100 euros can be shown.
+Winning tickets can be shown.
 
 Saldo warnings when wins big time.
 
