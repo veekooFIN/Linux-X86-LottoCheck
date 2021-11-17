@@ -336,7 +336,7 @@ void main()
  |                                                                      |
  +----------------------------------------------------------------------*/
 
-  jp=rand() % 80000000 + 10000001; //jackpot 10-90 milj. euro
+  jp=rand() % 80000000 + 10000000; //jackpot 10-90 milj. euro
 
 /*----------------------------------------------------------------------+
  |                                                                      |
@@ -727,6 +727,7 @@ void main()
  
   saldo = cash - game * 10 -10;
 
+  if(sil != 1 && saldo > 1) printf("\nEurojackpot kierros, voitot, 1 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(sil != 1 && saldo > 10) printf("\nEurojackpot kierros, voitot, 10 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(sil != 1 && saldo > 100) printf("\nEurojackpot kierros, voitot, 100 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   if(sil != 1 && saldo > 1000) printf("\nEurojackpot kierros, voitot, 1 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
