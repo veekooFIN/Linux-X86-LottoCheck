@@ -443,7 +443,7 @@ void main()
   { 
     totalcp++;
   }
-  printf("\nVikinglotto numeroita oikein R1:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);
+  printf("\nVikinglotto numeroita oikein R1:\t\t\t %d V %d P %d\n",total,totalcv,totalcp);
 
   total=0;  
   for(i=0;i<6;i++) 
@@ -466,7 +466,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R2:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R2:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
 /*  
   total=0; 
   for(i=0;i<6;i++) 
@@ -489,7 +489,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R3:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R3:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -511,7 +511,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R4:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R4:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -533,7 +533,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R5:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R5:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -555,7 +555,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R6:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R6:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -577,7 +577,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R7:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R7:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -599,7 +599,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R8:\t\t\t %d+%d+%d\n",total,totalcv,totalcp); 
+  printf("\nVikinglotto numeroita oikein R8:\t\t\t %d V %d P %d\n",total,totalcv,totalcp); 
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -621,7 +621,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R9:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);  
+  printf("\nVikinglotto numeroita oikein R9:\t\t\t %d V %d P %d\n",total,totalcv,totalcp);  
   total=0; 
   for(i=0;i<6;i++) 
   { 
@@ -643,7 +643,7 @@ void main()
   { 
     totalcp++;
   } 
-  printf("\nVikinglotto numeroita oikein R10:\t\t\t %d+%d+%d\n",total,totalcv,totalcp);    
+  printf("\nVikinglotto numeroita oikein R10:\t\t\t %d V %d P %d\n",total,totalcv,totalcp);    
 */
 
 /*----------------------------------------------------------------------+
@@ -675,7 +675,7 @@ void main()
       }
     }  
   }    
-  printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R1:\t\t\t %d * %d\n",total,totalbt); 
 
   total=0; 
   for(i=0;i<5;i++) 
@@ -699,7 +699,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R2:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R2:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -722,7 +722,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R3:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R3:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -745,7 +745,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R4:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R4:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -768,7 +768,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R5:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R5:\t\t\t %d * %d\n",total,totalbt); 
 /*
   total=0; 
   for(i=0;i<5;i++) 
@@ -792,7 +792,7 @@ void main()
       }
     }  
   }     
-  printf("\nEurojackpot numeroita oikein R6:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R6:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -815,7 +815,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R7:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R7:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -838,7 +838,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R8:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R8:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -861,7 +861,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R9:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R9:\t\t\t %d * %d\n",total,totalbt); 
   total=0; 
   for(i=0;i<5;i++) 
   { 
@@ -884,7 +884,7 @@ void main()
       }
     }  
   }       
-  printf("\nEurojackpot numeroita oikein R10:\t\t\t %d+%d\n",total,totalbt); 
+  printf("\nEurojackpot numeroita oikein R10:\t\t\t %d * %d\n",total,totalbt); 
 */
 
 /*----------------------------------------------------------------------+
@@ -918,7 +918,7 @@ void main()
   { 
     totalap++;
   }  
-  printf("\nLotto numeroita oikein R1:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R1:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -943,7 +943,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R2:\t\t\t %d+%d+%d\n",total,totalal,totalap);
+  printf("\nLotto numeroita oikein R2:\t\t\t %d + %d P %d\n",total,totalal,totalap);
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -968,7 +968,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R3:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R3:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -993,7 +993,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R4:\t\t\t %d+%d+%d\n",total,totalal,totalap);
+  printf("\nLotto numeroita oikein R4:\t\t\t %d + %d P %d\n",total,totalal,totalap);
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -1018,7 +1018,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R5:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R5:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -1043,7 +1043,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R6:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R6:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -1068,7 +1068,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R7:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R7:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -1093,7 +1093,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R8:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R8:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
 /*  
   total=0; 
   for(i=0;i<7;i++) 
@@ -1119,7 +1119,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R9:\t\t\t %d+%d+%d\n",total,totalal,totalap); 
+  printf("\nLotto numeroita oikein R9:\t\t\t %d + %d P %d\n",total,totalal,totalap); 
   total=0; 
   for(i=0;i<7;i++) 
   { 
@@ -1144,7 +1144,7 @@ void main()
   { 
     totalap++;
   }   
-  printf("\nLotto numeroita oikein R10:\t\t\t %d+%d+%d\n",total,totalal,totalap);
+  printf("\nLotto numeroita oikein R10:\t\t\t %d + %d P %d\n",total,totalal,totalap);
 */  
 } 
 

@@ -42,7 +42,7 @@ void main()
  ir2=0;
  irr1=0;
  irr2=0;
- for(game=0;game<10;game++) //game rounds how many weeks 1-3380   
+ for(game=0;game<5;game++) //game rounds how many weeks 1-3380   
  {
 
 /*----------------------------------------------------------------------+
@@ -88,7 +88,7 @@ void main()
     }
   }
   
-  if(cup != 1) printf("\nEurojackpot R1:\t\t\t %d + %d + %d + %d + %d + %d + %d\n",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
+  if(cup != 1) printf("\nEurojackpot R1:\t\t\t %d + %d + %d + %d + %d * %d + %d\n",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
 
 /*----------------------------------------------------------------------+
  |                                                                      |
@@ -126,7 +126,7 @@ void main()
     }
   }
 
-  if(cup != 1) printf("\nEurojackpot R2:\t\t\t %d + %d + %d + %d + %d + %d + %d\n",b1[0],b1[1],b1[2],b1[3],b1[4],bt1[0],bt1[1]);
+  if(cup != 1) printf("\nEurojackpot R2:\t\t\t %d + %d + %d + %d + %d * %d + %d\n",b1[0],b1[1],b1[2],b1[3],b1[4],bt1[0],bt1[1]);
 
 /*----------------------------------------------------------------------+
  |                                                                      |
@@ -164,7 +164,7 @@ void main()
     }
   }
 
-  if(cup != 1) printf("\nEurojackpot R3:\t\t\t %d + %d + %d + %d + %d + %d + %d\n",b2[0],b2[1],b2[2],b2[3],b2[4],bt2[0],bt2[1]);
+  if(cup != 1) printf("\nEurojackpot R3:\t\t\t %d + %d + %d + %d + %d * %d + %d\n",b2[0],b2[1],b2[2],b2[3],b2[4],bt2[0],bt2[1]);
 
 /*----------------------------------------------------------------------+
  |                                                                      |
@@ -201,7 +201,7 @@ void main()
     sw=0;
     }
   }
-  if(cup != 1) printf("\nEurojackpot R4:\t\t\t %d + %d + %d + %d + %d + %d + %d\n",b3[0],b3[1],b3[2],b3[3],b3[4],bt3[0],bt3[1]);
+  if(cup != 1) printf("\nEurojackpot R4:\t\t\t %d + %d + %d + %d + %d * %d + %d\n",b3[0],b3[1],b3[2],b3[3],b3[4],bt3[0],bt3[1]);
   
 /*----------------------------------------------------------------------+
  |                                                                      |
@@ -239,7 +239,7 @@ void main()
     }
   }
  
-  if(cup != 1) printf("\nEurojackpot R5:\t\t\t %d + %d + %d + %d + %d + %d + %d\n",b4[0],b4[1],b4[2],b4[3],b4[4],bt4[0],bt4[1]); 
+  if(cup != 1) printf("\nEurojackpot R5:\t\t\t %d + %d + %d + %d + %d * %d + %d\n",b4[0],b4[1],b4[2],b4[3],b4[4],bt4[0],bt4[1]); 
   
 /*
   ir1=0;
@@ -302,7 +302,7 @@ void main()
     }
   }
   
-  if(cup != 1) printf("\nEurojackpot oikea rivi:\t\t\t %d + %d + %d + %d + %d + %d + %d\n",bb[0],bb[1],bb[2],bb[3],bb[4],bbt[0],bbt[1]);
+  if(cup != 1) printf("\nEurojackpot oikea rivi:\t\t\t %d + %d + %d + %d + %d * %d + %d\n",bb[0],bb[1],bb[2],bb[3],bb[4],bbt[0],bbt[1]);
 
 /*
   irr1=0;
@@ -368,7 +368,7 @@ void main()
     }  
   }
       
-  if(cup != 1) printf("\nEurojackpot numeroita oikein R1:\t\t\t %d+%d\n",total,totalbt);
+  if(cup != 1) printf("\nEurojackpot numeroita oikein R1:\t\t\t %d * %d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
     if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
@@ -444,7 +444,7 @@ void main()
     }  
   }
       
-  if(cup != 1) printf("\nEurojackpot numeroita oikein R2:\t\t\t %d+%d\n",total,totalbt);
+  if(cup != 1) printf("\nEurojackpot numeroita oikein R2:\t\t\t %d * %d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
     if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
@@ -520,7 +520,7 @@ void main()
     }  
   }
       
-  if(cup != 1) printf("\nEurojackpot numeroita oikein R3:\t\t\t %d+%d\n",total,totalbt);
+  if(cup != 1) printf("\nEurojackpot numeroita oikein R3:\t\t\t %d * %d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
     if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
@@ -596,7 +596,7 @@ void main()
     }  
   }
       
-  if(cup != 1) printf("\nEurojackpot numeroita oikein R4:\t\t\t %d+%d\n",total,totalbt);
+  if(cup != 1) printf("\nEurojackpot numeroita oikein R4:\t\t\t %d * %d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
     if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
@@ -672,7 +672,7 @@ void main()
     }  
   }
       
-  if(cup != 1) printf("\nEurojackpot numeroita oikein R5:\t\t\t %d+%d\n",total,totalbt);
+  if(cup != 1) printf("\nEurojackpot numeroita oikein R5:\t\t\t %d * %d\n",total,totalbt);
   if(total==5 && totalbt==2) {
     cash=cash+jp;
     if(sil != 1) printf("\nEurojackpot\t\t\t %d euron voitto\n",jp);
