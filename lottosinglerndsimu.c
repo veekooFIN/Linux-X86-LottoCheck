@@ -31,18 +31,18 @@ void main()
   int bt8[2];
   int bt9[2];
   int ir1,ir2,irr1,irr2;
-  int sil=1; //printout silence mode
-  int cup=1; //cupoung silence mode  
+  int sil=0; //printout silence mode
+  int cup=0; //cupoung silence mode  
 
  srand(time(0)); 
- for(it=0;it<100000;it++) //iterations 1-100000
+ for(it=0;it<1;it++) //iterations 1-100000
  {
  cash=0;
  ir1=0;
  ir2=0;
  irr1=0;
  irr2=0;
- for(game=0;game<3380;game++) //game rounds how many weeks 1-3380   
+ for(game=0;game<5;game++) //game rounds how many weeks 1-3380   
  {
 
 /*----------------------------------------------------------------------+
@@ -232,7 +232,8 @@ void main()
   if(sil != 1 && saldo > 100000000) printf("\nEurojackpot kierros, voitot, 100 000 000 euron tulos:\t\t\t %d+%d+%d\n",game,cash,saldo);
   }
  
-  if(saldo > 10000) printf("\nEurojackpot iteraatio, kierros, voitot, tulos:\t\t\t %d + %d + %d + %d\n",it,game,cash,saldo);
+  //if(saldo > 10000) 
+  printf("\nEurojackpot iteraatio, kierros, voitot, tulos:\t\t\t %d + %d + %d + %d\n",it,game,cash,saldo);
 }
 }  
 
