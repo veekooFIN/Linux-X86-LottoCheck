@@ -1,7 +1,7 @@
 /*----------------------------------------------------------------------+
  |                                                                      |
- |     lotto.c -- demonstrate lotto number simulation / quick and dirty |
- |                Eurojackpot                                           |
+ |     lottosimu.c -- demonstrate lotto number simulation               |
+ |                    / quick and dirty Eurojackpot                     |
  |                                                                      |
  +----------------------------------------------------------------------*/
 #include <stdio.h>
