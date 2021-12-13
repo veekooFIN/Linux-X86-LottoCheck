@@ -18,7 +18,37 @@ Winning tickets can be shown.
 
 Saldo warnings when wins big time.
 
+5 rows/round(week)
+
 ---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+
+lottosinglefixsimu.c - A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
+
+All sorts of modes can be enabled. This can be fine tuned to macro and micro world of playing. 
+
+Winning tickets can be shown.
+
+Saldo warnings when wins big time.
+
+1 fixed/input row/round(week)
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+lottosinglerndsimu.c - A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
+
+All sorts of modes can be enabled. This can be fine tuned to macro and micro world of playing. 
+
+Winning tickets can be shown.
+
+Saldo warnings when wins big time.
+
+1 random row/round(week)
+
+---------------------------------------------------------------------------------------------------------------
+
 C language code developed for Linux. 
 Executable files added.
 Here is update #5 files!
