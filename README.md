@@ -25,7 +25,7 @@ Winning tickets can be shown.
 
 Saldo warnings when wins big time.
 
-5 rows/round(week)
+5 random rows/round(week)
 
 ---------------------------------------------------------------------------------------------------------------
 
