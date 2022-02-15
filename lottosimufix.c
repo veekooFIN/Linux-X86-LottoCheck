@@ -1,7 +1,7 @@
 /*----------------------------------------------------------------------+
  |                                                                      |
- |     lottosimu.c -- demonstrate lotto number simulation               |
- |                    of Eurojackpot / quick and dirty                  |
+ |     lottosimufix.c -- demonstrate lotto number simulation            |
+ |                       of Eurojackpot / quick and dirty               |
  |                                                                      |
  +----------------------------------------------------------------------*/
 #include <stdlib.h>
@@ -19,8 +19,23 @@ void main()
   int cup; //cupoung silence mode
   int big; //big saldo annoucements mode 0-10000
 
-  printf("Eurojackpot simulation:\n"); 
-  printf("\nNbr of iterations:");
+  printf("Eurojackpot simulation:\n");
+  printf("\nOne fixed row:\n");
+  printf("Enter 1-50 nbr#1:");
+  scanf("%d",&b0[0]);
+  printf("Enter 1-50 nbr#2:");
+  scanf("%d",&b0[1]); 
+  printf("Enter 1-50 nbr#3:");
+  scanf("%d",&b0[2]);
+  printf("Enter 1-50 nbr#4:");
+  scanf("%d",&b0[3]);
+  printf("Enter 1-50 nbr#5:");
+  scanf("%d",&b0[4]);
+  printf("Enter 1-10 star nbr#1:");
+  scanf("%d",&bt0[0]);
+  printf("Enter 1-10 star nbr#2:");
+  scanf("%d",&bt0[1]);
+  printf("Nbr of iterations:");
   scanf("%d",&eit);
   printf("Nbr of games:");
   scanf("%d",&egame);
@@ -31,7 +46,7 @@ void main()
   printf("Big saldo info 0/nbr:");
   scanf("%d",&big);
 
-  srand(time(0)); 
+  srand(time(0));
 
   for(it=0;it<eit;it++) //iterations 1-10000
   {
@@ -39,7 +54,7 @@ void main()
 
     for(game=0;game<egame;game++) //game rounds how many weeks 1-3380
     {
-      sw=0;
+      /*sw=0;
 
       for(i=0;i<5;i++)
       {
@@ -66,7 +81,7 @@ void main()
           i--;
           sw=0;
         }
-      }
+      }*/
 
       if(cup != 1) printf("\nRow1:%d+%d+%d+%d+%d*%d+%d",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
       sw=0;
