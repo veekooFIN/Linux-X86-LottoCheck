@@ -31,9 +31,7 @@ Saldo warnings when wins big time.
 
 ---------------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------
-
-new -versions - Coming new Eurojackpot 2022/3 diffrent rules and win classes. A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
+new -versions - Coming new Eurojackpot 2022/3 different rules and win classes. A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
 
 All sorts of modes can be enabled. This can be fine tuned to macro and micro world of playing.
 
