@@ -31,9 +31,9 @@ void main()
   scanf("%d",&b0[3]);
   printf("Enter 1-50 nbr#5:");
   scanf("%d",&b0[4]);
-  printf("Enter 1-10 star nbr#1:");
+  printf("Enter 1-12 star nbr#1:");
   scanf("%d",&bt0[0]);
-  printf("Enter 1-10 star nbr#2:");
+  printf("Enter 1-12 star nbr#2:");
   scanf("%d",&bt0[1]);
   printf("Nbr of iterations:");
   scanf("%d",&eit);
@@ -48,7 +48,7 @@ void main()
 
   srand(time(0));
 
-  for(it=0;it<eit;it++) //iterations 1-10000
+  for(it=0;it<eit;it++) //iterations 1-100000
   {
     cash=0;
 
@@ -72,7 +72,7 @@ void main()
 
       for(i=0;i<2;i++)
       {
-        bt0[i]=rand() % 10 +1;
+        bt0[i]=rand() % 12 +1;
         for(ii=0;ii<2;ii++)
         {
           if(bt0[ii] == bt0[i] && (ii != i)) sw=1;
@@ -102,7 +102,7 @@ void main()
 
       for(i=0;i<2;i++)
       {
-        bbt[i]=rand() % 10 +1;
+        bbt[i]=rand() % 12 +1;
         for(ii=0;ii<2;ii++)
         {
           if(bbt[ii] == bbt[i] && (ii != i)) sw=1;
@@ -115,7 +115,7 @@ void main()
 
       if(cup != 1) printf("\nWinning row:%d+%d+%d+%d+%d*%d+%d",bb[0],bb[1],bb[2],bb[3],bb[4],bbt[0],bbt[1]);
 
-      jp=rand() % 80000000 + 10000000; //jackpot 10-90 milj. euro
+      jp=rand() % 110000000 + 10000000; //jackpot 10-120 milj. euro
       total=0;
 
       for(i=0;i<5;i++)

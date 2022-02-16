@@ -33,7 +33,7 @@ void main()
 
   srand(time(0)); 
 
-  for(it=0;it<eit;it++) //iterations 1-10000
+  for(it=0;it<eit;it++) //iterations 1-100000
   {
     cash=0;
 
