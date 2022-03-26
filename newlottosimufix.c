@@ -148,48 +148,48 @@ void main()
       if(sil != 1) printf("\n%ld euro win",jp);
       }
       if(total==5 && totalbt==1) {
-      cash=cash+580000;
-      if(sil != 1) printf("\n580 000 euro win");
+      cash=cash+600000;
+      if(sil != 1) printf("\n600 000 euro win");
       }
       if(total==5 && totalbt==0) {
-      cash=cash+91000;
-      if(sil != 1) printf("\n91 000 euro win");
+      cash=cash+150000;
+      if(sil != 1) printf("\n150 000 euro win");
       }
       if(total==4 && totalbt==2) {
-      cash=cash+6100;
-      if(sil != 1) printf("\n6100 euro win");
+      cash=cash+5000;
+      if(sil != 1) printf("\n5000 euro win");
       }
       if(total==4 && totalbt==1) {
-      cash=cash+280;
-      if(sil != 1) printf("\n280 euro win");
-      }
-      if(total==4 && totalbt==0) {
-      cash=cash+90;
-      if(sil != 1) printf("\n90 euro win");
+      cash=cash+310;
+      if(sil != 1) printf("\n310 euro win");
       }
       if(total==3 && totalbt==2) {
-      cash=cash+88;
-      if(sil != 1) printf("\n88 euro win");
+      cash=cash+155;
+      if(sil != 1) printf("\n155 euro win");
+      }
+      if(total==4 && totalbt==0) {
+      cash=cash+110;
+      if(sil != 1) printf("\n110 euro win");
       }
       if(total==2 && totalbt==2) {
-      cash=cash+28;
-      if(sil != 1) printf("\n28 euro win");
+      cash=cash+25;
+      if(sil != 1) printf("\n25 euro win");
       }
       if(total==3 && totalbt==1) {
       cash=cash+20;
       if(sil != 1) printf("\n20 euro win");
       }
       if(total==3 && totalbt==0) {
-      cash=cash+12;
-      if(sil != 1) printf("\n12 euro win");
+      cash=cash+17;
+      if(sil != 1) printf("\n17 euro win");
       }   
       if(total==1 && totalbt==2) {
-      cash=cash+14;
-      if(sil != 1) printf("\n14 euro win");
+      cash=cash+13;
+      if(sil != 1) printf("\n13 euro win");
       }
       if(total==2 && totalbt==1) {
-      cash=cash+9;
-      if(sil != 1) printf("\n9 euro win");
+      cash=cash+10;
+      if(sil != 1) printf("\n10 euro win");
       }
 
       saldo = cash - game * 2 -2;
