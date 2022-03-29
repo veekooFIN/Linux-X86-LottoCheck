@@ -85,6 +85,11 @@ void main()
 
       if(cup != 1) printf("\nRow1:%d+%d+%d+%d+%d*%d+%d",b0[0],b0[1],b0[2],b0[3],b0[4],bt0[0],bt0[1]);
       sw=0;
+      bb[0]=0;
+      bb[1]=0;
+      bb[2]=0;
+      bb[3]=0;
+      bb[4]=0;
 
       for(i=0;i<5;i++)
       {
@@ -99,6 +104,8 @@ void main()
         }
       }
       sw=0;
+      bbt[0]=0;
+      bbt[1]=0;
 
       for(i=0;i<2;i++)
       {
