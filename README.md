@@ -7,41 +7,9 @@ Here is a spoiler: winning something is hard, winning big time even harder. If y
 
 ---------------------------------------------------------------------------------------------------------------
 
-lottosimu.c - A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
+Lottosimu2 uses random cupoung and random winning numbers.
 
-All sorts of modes can be enabled. This can be fine tuned to macro and micro world of playing. 
+Lottosimufix2 uses fixed chosen numbers and random winning numbers.
 
-Winning tickets can be shown.
-
-Saldo warnings when wins big time.
-
-1 random rows/round(week)
-
----------------------------------------------------------------------------------------------------------------
-
-lottosimufix.c - A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
-
-All sorts of modes can be enabled. This can be fine tuned to macro and micro world of playing.
-
-Winning tickets can be shown.
-
-Saldo warnings when wins big time.
-
-1 fixed/input row/round(week)
-
----------------------------------------------------------------------------------------------------------------
-
-new -versions - Coming new Eurojackpot 2022/3 different rules and win classes. A simulation of playing Eurojackpot very very long time - monitoring game round, cash earned, total balance.
-
-All sorts of modes can be enabled. This can be fine tuned to macro and micro world of playing.
-
-Winning tickets can be shown.
-
-Saldo warnings when wins big time.
-
-1 random rows/round(week)
-
-1 fixed/input row/round(week)
-
----------------------------------------------------------------------------------------------------------------
+With these you can simulate micro and macro world of playing eurojackpot.
 
