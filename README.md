@@ -7,9 +7,11 @@ Here is a spoiler: winning something is hard, winning big time even harder. If y
 
 ---------------------------------------------------------------------------------------------------------------
 
-Lottosimu2 uses random cupoung and random winning numbers.
+Newlottosimu uses random cupoung and random winning numbers.
 
-Lottosimufix2 uses fixed chosen numbers and random winning numbers.
+Newlottosimufix uses fixed chosen numbers and random winning numbers.
 
 With these you can simulate micro and macro world of playing eurojackpot.
+
+---------------------------------------------------------------------------------------------------------------
 
